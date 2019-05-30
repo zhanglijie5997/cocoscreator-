@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DZRY_BSZ_btn_zhengque",
+    "texture": "19a9bf75-74fe-48dd-8f7b-d8ad3abb9092",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      457,
+      397
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      457,
+      397
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

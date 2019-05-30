@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "playgameFont_0",
+    "texture": "8b46e16b-7ae8-496e-8420-b5cf5a903e40",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      253,
+      255
+    ],
+    "offset": [
+      -1.5,
+      0.5
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
