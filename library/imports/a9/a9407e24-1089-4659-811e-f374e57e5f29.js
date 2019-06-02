@@ -38,7 +38,7 @@ var HTTP = /** @class */ (function () {
         /**
          * data 数据 处理
          */
-        var Url = 'http://game.qingxiet.com/api/';
+        var Url = 'http://localhost:8091/api/';
         var formData = new FormData();
         var KEY = Object.keys(data);
         var VAL = Object.values(data);

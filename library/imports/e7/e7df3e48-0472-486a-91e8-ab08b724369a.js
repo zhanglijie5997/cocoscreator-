@@ -33,12 +33,21 @@ var Move = /** @class */ (function (_super) {
      * @param x1   移动x1坐标
      * @param y1   移动x2坐标
      * @param node 移动节点
+     * @param repeat 是否重复一次，true =>重复一次  false => 无限重复
+     * @param num  重复次数
      */
-    Move.prototype._moveBy = function (time, x, y, x1, y1, node) {
+    Move.prototype._moveBy = function (time, x, y, x1, y1, node, repeat, num) {
+        if (num === void 0) { num = 1; }
         var start = cc.moveBy(time, x, y);
         var end = cc.moveBy(time, x1, y1);
         var seq = cc.sequence(start, end);
-        node.runAction(cc.repeatForever(seq));
+        if (repeat) {
+            var nodeRepeat = cc.repeat(seq, num);
+            node.runAction(nodeRepeat);
+        }
+        else {
+            node.runAction(cc.repeatForever(seq));
+        }
     };
     /**
      * 闪烁

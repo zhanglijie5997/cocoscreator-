@@ -34,7 +34,7 @@ class HTTP {
         /**
          * data 数据 处理
          */
-        let Url = 'http://game.qingxiet.com/api/'
+        let Url = 'http://localhost:8091/api/'
         let formData = new FormData();
         let KEY = Object.keys(data);
         let VAL = <any>Object.values(data);

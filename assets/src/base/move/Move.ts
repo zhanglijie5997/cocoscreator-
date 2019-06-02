@@ -30,12 +30,20 @@ export default class Move extends cc.Component{
    * @param x1   移动x1坐标
    * @param y1   移动x2坐标
    * @param node 移动节点
+   * @param repeat 是否重复一次，true =>重复一次  false => 无限重复
+   * @param num  重复次数
    */
-    public _moveBy(time:number,x:number,y:number,x1:number,y1:number,node:cc.Node) {
+    public _moveBy(time:number,x:number,y:number,x1:number,y1:number,node:cc.Node,repeat:boolean,num:number = 1) {
         let start = cc.moveBy(time,x,y);
         let end =  cc.moveBy(time,x1,y1);
-        let seq = cc.sequence(start,end)
-        node.runAction(cc.repeatForever(seq))
+        let seq = cc.sequence(start,end);
+        if(repeat) {
+            let nodeRepeat = cc.repeat(seq, num)
+            node.runAction(nodeRepeat)
+        }else {
+            node.runAction(cc.repeatForever(seq))
+        }
+        
     }
 
     /**

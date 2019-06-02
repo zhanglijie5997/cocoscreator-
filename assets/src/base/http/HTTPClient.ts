@@ -9,7 +9,7 @@ class HTTPClient {
      */
     public async _data() {
         
-       let data =  await HTTP.Ajax("Gamerole/buyrecord", "POST", { page: 1 })
+       let data =  await HTTP.Ajax("Gamerole/index", "POST", { page: 1 })
             .then(res => {
                 console.log(res,'tttt')
                 return res;

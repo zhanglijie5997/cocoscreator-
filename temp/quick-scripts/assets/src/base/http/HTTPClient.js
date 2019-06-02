@@ -16,7 +16,7 @@ var HTTPClient = /** @class */ (function () {
             var data;
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, HTTP_1.default.Ajax("Gamerole/buyrecord", "POST", { page: 1 })
+                    case 0: return [4 /*yield*/, HTTP_1.default.Ajax("Gamerole/index", "POST", { page: 1 })
                             .then(function (res) {
                             console.log(res, 'tttt');
                             return res;

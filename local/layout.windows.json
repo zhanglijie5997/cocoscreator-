@@ -43,35 +43,35 @@
                 "children": [
                   "scene"
                 ],
-                "height": 438.125,
+                "height": 447.125,
                 "type": "panel",
-                "width": 772
+                "width": 899.984375
               },
               {
-                "active": 0,
+                "active": 1,
                 "children": [
                   "console",
-                  "timeline",
-                  "bitmap-font"
+                  "timeline"
                 ],
-                "height": 275.078125,
+                "height": 266.078125,
                 "type": "panel",
-                "width": 772
+                "width": 899.984375
               }
             ],
             "height": 715.21875,
             "type": "dock-v",
-            "width": 772
+            "width": 899.984375
           },
           {
             "active": 0,
             "children": [
               "inspector",
-              "node-library"
+              "node-library",
+              "bitmap-font"
             ],
             "height": 715.21875,
             "type": "panel",
-            "width": 432
+            "width": 304
           }
         ],
         "type": "dock-h"
@@ -81,18 +81,17 @@
         "assets",
         "console",
         "timeline",
-        "bitmap-font",
         "inspector",
         "node-library",
+        "bitmap-font",
         "scene"
       ]
-    },
-    "window-1558491096752": {}
+    }
   },
   "panels": {
     "project-settings": {
-      "x": 662,
-      "y": 245,
+      "x": 481,
+      "y": 190,
       "width": 600,
       "height": 565
     },
@@ -119,6 +118,12 @@
       "y": 48,
       "width": 654,
       "height": 722
+    },
+    "sprite-editor": {
+      "x": 470,
+      "y": 145,
+      "width": 500,
+      "height": 522
     }
   }
 }
