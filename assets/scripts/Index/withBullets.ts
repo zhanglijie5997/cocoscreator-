@@ -1,3 +1,5 @@
+import eventBus from "../../src/base/EventBus/EventBus";
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -16,13 +18,16 @@ export default class collision extends cc.Component {
     update(dt: number) {
         // cc.log(this.node,9999)
         if (this.node.x > cc.winSize.width / 2) {
-            this.pool.put(this.node);
+
+           
+            this.emitNode(this.node)
+            // this.pool.put(this.node);
         }
     }
 
+
     reuse(pool: any) {
         this.pool = pool;
-
     }
 
 
@@ -30,12 +35,18 @@ export default class collision extends cc.Component {
         // console.log(`碰撞${other}  : ${self}`);
         // console.log(`碰撞结束${other}`);
         
-        let remove = cc.removeSelf();
+        // let remove = cc.removeSelf();
         
-        self.node.runAction(remove);
+        // self.node.runAction(remove);
 
         // this.pool.put(this.node)
 
+        this.emitNode(this.node)
+
     }
 
+    public emitNode(node:cc.Node):void {
+        eventBus.$emit("putNode",node)
+    }
+    
 }

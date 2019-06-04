@@ -18,7 +18,7 @@ var EventBus = /** @class */ (function () {
         // 查看这个type的event有多少个回调函数，如果有多个需要依次调用。
         if (Array.isArray(e)) {
             for (var i = 0; i < e.length; i++) {
-                cc.log(e[i], 'hhh');
+                // cc.log(e[i], 'hhh')
                 e[i].apply(this, args);
             }
         }

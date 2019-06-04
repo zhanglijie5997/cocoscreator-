@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // import animation from "../base/animate/animation";
 var Move_1 = require("../src/base/move/Move");
 var baseScence_1 = require("../src/base/load/baseScence");
+var EventBus_1 = require("../src/base/EventBus/EventBus");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var index = /** @class */ (function (_super) {
     __extends(index, _super);
@@ -40,16 +41,28 @@ var index = /** @class */ (function (_super) {
     }
     index.prototype.onLoad = function () {
         this.createPeople();
-        // cc.log(cc.find("Canvas").children)
-        // cc.log(cc.find("Canvas").children[1].getComponent(cc.Animation));
         this.createBullets();
-        // this.getBullet();
-        // this._baseScence(["Canvas"],640)
+        this.putNoodPol();
     };
     index.prototype.start = function () {
     };
     index.prototype.update = function (dt) {
         this.bgMove();
+    };
+    index.prototype.onDestroy = function () {
+        this._offPutNoodPol();
+    };
+    // 扔回对象池
+    index.prototype.putNoodPol = function () {
+        EventBus_1.default.$on("putNode", this._putNoodPol.bind(this));
+        // cc.log(this)
+    };
+    index.prototype._putNoodPol = function (msg) {
+        this.bulletsPool.put(msg);
+        // cc.log(this.bulletsPool,888)
+    };
+    index.prototype._offPutNoodPol = function () {
+        EventBus_1.default.$off("putNode", this._putNoodPol.bind(this));
     };
     // 创建人物
     index.prototype.createPeople = function () {
@@ -73,7 +86,8 @@ var index = /** @class */ (function (_super) {
     };
     // 创建子弹
     index.prototype.createBullets = function () {
-        this.bulletsPool = new cc.NodePool("bullet");
+        if (!this.bulletsPool)
+            this.bulletsPool = new cc.NodePool("bullet");
         for (var i = 0; i < 100; i++) {
             var temp = cc.instantiate(this.bullet);
             this.bulletsPool.put(temp);
@@ -95,6 +109,7 @@ var index = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             var remove = cc.removeSelf();
             oneBullet.runAction(remove);
+            oneBullet.destroy();
         }, 3);
         if (this.bulletsPool.size() < 5) {
             this.createBullets();

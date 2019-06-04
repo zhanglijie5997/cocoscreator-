@@ -22,7 +22,7 @@ class HTTP {
         let resultPromise = Promise.race([fecthPromise, abortPromise]);
 
         return resultPromise.then(res => {
-            console.log(res, '_______________________');
+            // console.log(res, '_______________________');
             return res;
         });
     }

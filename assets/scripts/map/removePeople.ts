@@ -16,8 +16,11 @@ export default class removePeople extends cc.Component {
         // cc.log(animation);
         animation.on("finished",() => {
             // cc.log(`动画结束`);
-            // this.pool.put(this.node)
-            this.node.removeSelf()
+           
+            let move = cc.removeSelf();
+
+            this.node.destroy()
+            
         },this)
         
     }

@@ -22,7 +22,8 @@ var removePeople = /** @class */ (function (_super) {
         // cc.log(animation);
         animation.on("finished", function () {
             // cc.log(`动画结束`);
-            _this.pool.put(_this.node);
+            var move = cc.removeSelf();
+            _this.node.destroy();
         }, this);
     };
     removePeople = __decorate([

@@ -25,7 +25,7 @@ var HTTP = /** @class */ (function () {
         // 最快出结果的promise 作为结果
         var resultPromise = Promise.race([fecthPromise, abortPromise]);
         return resultPromise.then(function (res) {
-            console.log(res, '_______________________');
+            // console.log(res, '_______________________');
             return res;
         });
     };

@@ -30,8 +30,7 @@ var withCollision = /** @class */ (function (_super) {
         this.num -= 1;
         this.text.string = this.num + '';
         if (this.num <= 0) {
-            var remove = cc.removeSelf();
-            this.node.runAction(remove);
+            this.node.destroy();
         }
     };
     __decorate([

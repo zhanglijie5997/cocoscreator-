@@ -21,7 +21,7 @@ var LoadScene = /** @class */ (function (_super) {
             throw new Error("Assets error");
         }
         if (assets.loaded) {
-            cc.log("\u573A\u666F\u9884\u52A0\u8F7D\u5B8C\u6210");
+            // cc.log(`场景预加载完成`);
             EventBus_1.default.$emit("scence", "场景预加载完成");
         }
     };
@@ -33,15 +33,28 @@ var LoadScene = /** @class */ (function (_super) {
         /**
          * Home and PlayGame 是场景，否则是资源
          */
-        if (scene === "Home" || scene === "PlayGame") {
+        if (scene === "index" || scene === "home") {
             return cc.director.preloadScene(scene, this._load, this._loadSuccess);
         }
         else {
             return cc.loader.loadRes(scene, this._load, this._audioSuccess);
         }
     };
+    /**
+     * 批量加载资源
+     * @param load 批量加载资源路径
+     * @param fn   回调函数
+     */
+    LoadScene.prototype.loadMoreRes = function (load, fn) {
+        return __awaiter(this, void 0, Promise, function () {
+            return __generator(this, function (_a) {
+                cc.loader.loadResDir(load, cc.AudioClip, fn);
+                return [2 /*return*/];
+            });
+        });
+    };
     LoadScene.prototype._load = function () {
-        cc.log("\u573A\u666F\u9884\u52A0\u8F7D\u4E2D");
+        // cc.log(`场景预加载中`)
     };
     /**
      *
@@ -92,12 +105,12 @@ var LoadScene = /** @class */ (function (_super) {
     };
     /**
      * 音频资源加载完成
-     * @param err     错误信息
+     * @param err     错误信息f
      * @param assets  资源加载完成
      */
     LoadScene.prototype._audioSuccess = function (err, assets) {
         if (err) {
-            throw new Error("Assets Error");
+            throw err;
         }
         if (assets.loaded) {
             EventBus_1.default.$emit("scence", "音频加载完成");

@@ -25,8 +25,7 @@ export default class withCollision extends cc.Component {
         this.num -= 1;
         this.text.string = this.num + '';
         if (this.num <= 0) {
-            let remove = cc.removeSelf();
-            this.node.runAction(remove)
+            this.node.destroy()
         }
     }
 

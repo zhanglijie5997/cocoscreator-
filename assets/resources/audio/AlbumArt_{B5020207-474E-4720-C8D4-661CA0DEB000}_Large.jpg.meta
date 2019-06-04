@@ -1,11 +1,10 @@
 {
-  "ver": "2.3.0",
+  "ver": "2.2.0",
   "uuid": "9540a30d-eb37-4ce2-bd1a-66a0183bcfd6",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
-  "platformSettings": {},
   "subMetas": {
     "AlbumArt_{B5020207-474E-4720-C8D4-661CA0DEB000}_Large": {
       "ver": "1.0.3",

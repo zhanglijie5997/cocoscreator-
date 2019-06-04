@@ -1,6 +1,7 @@
 // import animation from "../base/animate/animation";
 import Move from "../src/base/move/Move";
 import baseScence from "../src/base/load/baseScence";
+import eventBus from "../src/base/EventBus/EventBus";
 
 
 
@@ -61,16 +62,9 @@ export default class index extends baseScence {
     onLoad() {
         this.createPeople();
 
-        // cc.log(cc.find("Canvas").children)
-
-        // cc.log(cc.find("Canvas").children[1].getComponent(cc.Animation));
-
         this.createBullets();
 
-        // this.getBullet();
-
-        // this._baseScence(["Canvas"],640)
-
+        this.putNoodPol()
     }
 
     start() {
@@ -81,6 +75,25 @@ export default class index extends baseScence {
         this.bgMove()
     }
 
+    onDestroy() {
+        this._offPutNoodPol()
+    }
+    // 扔回对象池
+    public putNoodPol():void {
+        eventBus.$on("putNode",this._putNoodPol.bind(this))
+        // cc.log(this)
+    }
+
+    private _putNoodPol(msg:cc.Node):void {
+
+        this.bulletsPool.put(msg);
+        // cc.log(this.bulletsPool,888)
+    }
+
+
+    private _offPutNoodPol():void {
+        eventBus.$off("putNode",this._putNoodPol.bind(this))
+    }
     // 创建人物
     private createPeople() {
 
@@ -118,9 +131,12 @@ export default class index extends baseScence {
     }
 
 
+
     // 创建子弹
     private createBullets() {
-        this.bulletsPool = new cc.NodePool("bullet")
+
+        if(!this.bulletsPool) this.bulletsPool = new cc.NodePool("bullet")
+        
         for (var i = 0; i < 100; i++) {
             let temp = cc.instantiate(this.bullet);
             this.bulletsPool.put(temp)
@@ -154,7 +170,8 @@ export default class index extends baseScence {
 
         this.scheduleOnce(() => {
             let remove = cc.removeSelf();
-            oneBullet.runAction(remove)
+            oneBullet.runAction(remove);
+            oneBullet.destroy();
         }, 3)
 
         if (this.bulletsPool.size() < 5) {
