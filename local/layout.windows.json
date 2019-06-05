@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1936,
-      "height": 1066,
+      "x": 0,
+      "y": 23,
+      "width": 1440,
+      "height": 812,
       "layout": {
         "children": [
           {
@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 533.109375,
+                "height": 410.46875,
                 "type": "panel",
-                "width": 309
+                "width": 231.59375
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 410.09375,
+                "height": 315.734375,
                 "type": "panel",
-                "width": 309
+                "width": 231.59375
               }
             ],
-            "height": 945.21875,
+            "height": 728.21875,
             "type": "dock-v",
-            "width": 309
+            "width": 231.59375
           },
           {
             "children": [
@@ -43,9 +43,9 @@
                 "children": [
                   "scene"
                 ],
-                "height": 573.140625,
+                "height": 441.28125,
                 "type": "panel",
-                "width": 1018
+                "width": 762.96875
               },
               {
                 "active": 0,
@@ -53,14 +53,14 @@
                   "console",
                   "timeline"
                 ],
-                "height": 370.078125,
+                "height": 284.9375,
                 "type": "panel",
-                "width": 1018
+                "width": 762.96875
               }
             ],
-            "height": 945.21875,
+            "height": 728.21875,
             "type": "dock-v",
-            "width": 1018
+            "width": 762.96875
           },
           {
             "active": 0,
@@ -69,9 +69,9 @@
               "node-library",
               "bitmap-font"
             ],
-            "height": 945.21875,
+            "height": 728.21875,
             "type": "panel",
-            "width": 589
+            "width": 441.4375
           }
         ],
         "type": "dock-h"
