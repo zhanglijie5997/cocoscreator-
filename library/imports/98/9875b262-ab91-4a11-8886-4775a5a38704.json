@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "addjuzi",
+    "texture": "9dcafaf7-0a4b-474b-9833-395336076fe0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      164,
+      118
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      164,
+      118
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

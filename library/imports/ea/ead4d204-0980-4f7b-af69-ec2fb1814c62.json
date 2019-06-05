@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "invincible03",
+    "texture": "4d31d654-8a6a-4ff2-bb5c-460e616c1e63",
+    "atlas": "b05d8385-eaad-48ca-8919-5e24bd869f15",
+    "rect": [
+      1164,
+      894,
+      218,
+      196
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      230,
+      230
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

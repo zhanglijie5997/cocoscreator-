@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DZRY_BSZ_fengexian",
+    "texture": "cb71e8da-b08b-4be2-a4f0-605324629b04",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      9,
+      1435
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      9,
+      1435
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

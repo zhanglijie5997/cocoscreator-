@@ -1,0 +1,98 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "gameing_1.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "DZRY_BSZ_btn_cuowu_1": {
+      "__uuid__": "6c19f920-f64e-4ab2-a6a6-b071a2498c43"
+    },
+    "DZRY_BSZ_btn_cuowu_2": {
+      "__uuid__": "c60b9539-8b48-43ac-965a-77400a5b95cf"
+    },
+    "DZRY_BSZ_btn_cuowu_3": {
+      "__uuid__": "cd187d0c-6992-4e8b-a490-0eb3116e63a6"
+    },
+    "DZRY_BSZ_btn_djs": {
+      "__uuid__": "18d8836e-4574-40c0-bd43-2baa3ffb245b"
+    },
+    "DZRY_BSZ_btn_djs_shuzi00": {
+      "__uuid__": "a92d6933-eafb-40dd-b721-a21abb4ba3b3"
+    },
+    "DZRY_BSZ_btn_djs_shuzi01": {
+      "__uuid__": "d0908921-83b2-4ae1-86eb-9a47d7434170"
+    },
+    "DZRY_BSZ_btn_djs_shuzi02": {
+      "__uuid__": "757361eb-d45e-4729-906d-204a6dc746fc"
+    },
+    "DZRY_BSZ_btn_djs_shuzi03": {
+      "__uuid__": "5174f3df-6292-4499-921b-1a73b7dcbe61"
+    },
+    "DZRY_BSZ_btn_djs_shuzi04": {
+      "__uuid__": "1154b2f6-8a01-4324-bf32-01c549fd1787"
+    },
+    "DZRY_BSZ_btn_djs_shuzi05": {
+      "__uuid__": "126b4b5c-2a45-436f-a4f6-eaebd888bcc1"
+    },
+    "DZRY_BSZ_btn_tmDK": {
+      "__uuid__": "b6c5c8e9-af3b-40e7-8d80-30ffa0cdc0ab"
+    },
+    "DZRY_BSZ_btn_zhengque_1": {
+      "__uuid__": "f546840a-1c39-4d93-8b37-a3e2c6b07b23"
+    },
+    "DZRY_BSZ_btn_zhengque_2": {
+      "__uuid__": "da9c3bd6-465f-4d49-9a36-ea15527381f6"
+    },
+    "DZRY_BSZ_btn_zhengque_3": {
+      "__uuid__": "cb35e16f-35a3-4603-a91e-27ad54e8c483"
+    },
+    "DZRY_BSZ_dhk": {
+      "__uuid__": "2bbee2a1-a5fd-4b41-97a1-25995ffb5043"
+    },
+    "DZRY_BSZ_dhkwz": {
+      "__uuid__": "eb2e55be-5a8c-4f48-a0c8-5f70ed047d4c"
+    },
+    "DZRY_BSZ_rwtxk": {
+      "__uuid__": "3a1b3f79-e8f0-4732-b34a-ea5145b6760b"
+    },
+    "DZRY_BSZ_wuditubiao": {
+      "__uuid__": "07cc7578-9290-49da-a872-1408b485cef8"
+    },
+    "DZRY_BSZ_xhk": {
+      "__uuid__": "5a6f55fe-514c-4e8d-b8c5-4d6028bd5e5f"
+    },
+    "click01": {
+      "__uuid__": "5368f31e-025a-44c6-874f-4ed10b319ec8"
+    },
+    "click02": {
+      "__uuid__": "c716f355-2d1a-4da4-beb0-dd0c27189f76"
+    },
+    "click03": {
+      "__uuid__": "a936ea0c-2ca1-46be-acb2-79161656acbb"
+    },
+    "click04": {
+      "__uuid__": "835270f8-0d4c-4f1a-8ad9-a18ced1a6c09"
+    },
+    "click05": {
+      "__uuid__": "2ce25058-8b6b-4fd2-83c2-d60058f0a6ef"
+    },
+    "invincible01": {
+      "__uuid__": "1d73d02c-20ed-4bab-b0da-547d7391ac6e"
+    },
+    "invincible02": {
+      "__uuid__": "ff50174f-f1be-43df-abcf-168db1a9921f"
+    },
+    "invincible03": {
+      "__uuid__": "ead4d204-0980-4f7b-af69-ec2fb1814c62"
+    },
+    "invincible04": {
+      "__uuid__": "358c6b38-3abc-461f-a726-2c4f1773a8f2"
+    },
+    "match": {
+      "__uuid__": "5e3852cc-b3e3-4100-8b6f-2ee9dca1cb57"
+    },
+    "userNum": {
+      "__uuid__": "663b2d44-0d0b-4cf7-bc5c-9ddae9ece52e"
+    }
+  }
+}

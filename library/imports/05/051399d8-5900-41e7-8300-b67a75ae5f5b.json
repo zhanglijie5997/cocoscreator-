@@ -1,0 +1,197 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "apple.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "77": {
+      "__uuid__": "923ffe49-c3ef-46f1-bbd7-3aeb9418d4f5"
+    },
+    "0@2x": {
+      "__uuid__": "5224f3e0-959e-4f87-be7d-8b5a32fc0b58"
+    },
+    "1-6@2x": {
+      "__uuid__": "98de60cf-4a3a-41dd-874a-846ee937439c"
+    },
+    "1@2x": {
+      "__uuid__": "e86a6e74-1637-4a5f-909e-81e1070a457d"
+    },
+    "2@2x": {
+      "__uuid__": "f42cbc58-18d2-44ad-a506-4ff183229b34"
+    },
+    "3@2x": {
+      "__uuid__": "155c606f-e3dd-477c-a2ed-3843b39a70e7"
+    },
+    "4@2x": {
+      "__uuid__": "2b08bdc2-4593-4274-953f-f3a6d5dd5e42"
+    },
+    "5@2x": {
+      "__uuid__": "b2892d90-424d-44c7-bce8-42d3e1ec81a7"
+    },
+    "6@2x": {
+      "__uuid__": "079c7f0a-cd44-48a2-8c99-7f8dc48ef98d"
+    },
+    "77@2x": {
+      "__uuid__": "69944e6b-dd4b-4ee8-83b7-0824a9dd8a7f"
+    },
+    "7@2x": {
+      "__uuid__": "a0580cce-cbc5-4ebf-804e-3be5ab55ed34"
+    },
+    "8-13@2x": {
+      "__uuid__": "be3aa4c1-a980-4c39-bfb6-992d8f319996"
+    },
+    "8@2x": {
+      "__uuid__": "744bd874-50b9-47ad-b1cb-97ed8103b253"
+    },
+    "9@2x": {
+      "__uuid__": "56f26c8b-5a60-45d0-b6b4-9a29c1d48f62"
+    },
+    "ALL+1@2x": {
+      "__uuid__": "9d0b9da2-affb-4d9f-8bf0-ee5d1c199ed4"
+    },
+    "BAR@2x": {
+      "__uuid__": "af9694e4-e4b1-46a0-a65f-a4ac579507b7"
+    },
+    "X100@2x": {
+      "__uuid__": "d296030f-e372-4b87-a795-6e7bf0469daa"
+    },
+    "X3@2x(1)": {
+      "__uuid__": "c33448f7-27f1-4189-9429-62bdfdfb3a61"
+    },
+    "X3@2x(2)": {
+      "__uuid__": "df38ad2c-5386-47b7-9c5e-307277ac626a"
+    },
+    "X3@2x(3)": {
+      "__uuid__": "de3bf77a-6795-42ef-a1b9-34d952e38d45"
+    },
+    "X3@2x(4)": {
+      "__uuid__": "a4a10d3f-17f3-4823-97e3-91a8e3b708d3"
+    },
+    "X3@2x(5)": {
+      "__uuid__": "10f1d791-12f7-49cb-957e-59e40e7aa37b"
+    },
+    "X3@2x(6)": {
+      "__uuid__": "97056833-27b9-4d1b-8ca1-eb68ba49bd6e"
+    },
+    "X3@2x": {
+      "__uuid__": "3d9657bb-e36d-49b2-961c-b01b621838f8"
+    },
+    "X50@2x": {
+      "__uuid__": "090b87ab-2500-43ab-a8be-010d68a21e5c"
+    },
+    "addjuzi": {
+      "__uuid__": "376d58fe-c953-47e1-9065-5d9088f488c0"
+    },
+    "addxigua": {
+      "__uuid__": "f26db900-b026-4c90-81c3-104c356ec416"
+    },
+    "backCoint": {
+      "__uuid__": "a9d73c80-3617-43c3-9715-2a1c1459b311"
+    },
+    "backHome": {
+      "__uuid__": "d8384abe-3779-4896-84bd-a553eef79735"
+    },
+    "big77": {
+      "__uuid__": "c79ede88-1166-4984-aedc-dc22a981d94a"
+    },
+    "bigwin@2x": {
+      "__uuid__": "342b69c8-ea95-494f-8da7-b0be750e1f15"
+    },
+    "down": {
+      "__uuid__": "f5743330-4e8f-4b37-9d72-477161ef8a7e"
+    },
+    "duihuan": {
+      "__uuid__": "afb816db-c8ad-4942-a932-34bc013f0f12"
+    },
+    "juzi": {
+      "__uuid__": "536abb64-88d0-4a24-a8e4-ca9821b681ab"
+    },
+    "juzi1": {
+      "__uuid__": "be365f20-3356-4f30-a4e5-a354ec659812"
+    },
+    "lingdang": {
+      "__uuid__": "10220bec-9572-46f4-aebb-25e247d15fdd"
+    },
+    "lingdang2 (2)": {
+      "__uuid__": "b02c1570-daed-4736-a02f-90a96ac991f3"
+    },
+    "lingdang2": {
+      "__uuid__": "bee1573d-c9cb-4a0d-88ab-7afc6e8aa51e"
+    },
+    "mangguo": {
+      "__uuid__": "c5abaa0a-b074-4601-9d10-2f897ce832d0"
+    },
+    "mangguo2": {
+      "__uuid__": "f33ef157-023e-4f03-8bff-3b718747510b"
+    },
+    "mangguo3": {
+      "__uuid__": "9cdb9256-df82-494e-bf24-6368cf0ff5e6"
+    },
+    "number": {
+      "__uuid__": "9e46de56-e0ad-4dec-a434-bd5874ebcf65"
+    },
+    "pingguo": {
+      "__uuid__": "2f0f5ce2-f322-4933-bffc-5485ebab5d40"
+    },
+    "pingguo1": {
+      "__uuid__": "24a38cb0-e869-4537-8323-f4cd07e5ab29"
+    },
+    "pingguo2": {
+      "__uuid__": "a3c9ee3f-62e7-462d-af8a-ddb293103ace"
+    },
+    "pingguo3 (2)": {
+      "__uuid__": "49b44797-ba2e-46ab-8eca-4d69de1db394"
+    },
+    "pingguo3": {
+      "__uuid__": "ab5813ba-d31e-428d-85b4-bad8ba309bfa"
+    },
+    "playRole": {
+      "__uuid__": "cdb0580b-aef1-4615-96a3-d0302090ef54"
+    },
+    "smallApple": {
+      "__uuid__": "c727fa45-469e-4c1f-b108-3b10ecfcd7f1"
+    },
+    "smallStart": {
+      "__uuid__": "a54e5a46-c4ab-4360-a13f-3b9e06114982"
+    },
+    "smallXigua": {
+      "__uuid__": "739dd953-9869-4697-89cb-78389a3b5913"
+    },
+    "smalljuzi": {
+      "__uuid__": "a9fb48db-57a3-4b39-8ff6-95e4354a8654"
+    },
+    "smalllingdang": {
+      "__uuid__": "89a9970e-3774-4303-95d2-910d820d297f"
+    },
+    "smallmangguo": {
+      "__uuid__": "aa4d9b68-8ea0-4d7f-9a0c-90fc92c763bb"
+    },
+    "start (2)": {
+      "__uuid__": "f6e235b7-988f-4c71-a8e2-7450c3b7f94e"
+    },
+    "start": {
+      "__uuid__": "5c8711a3-aa25-4cc0-99f6-2676625ae277"
+    },
+    "startTwo": {
+      "__uuid__": "6807d6e9-eda9-48de-9dd2-d348d8642673"
+    },
+    "toubi": {
+      "__uuid__": "d3a799df-4697-498c-9f3e-9227c757d1ff"
+    },
+    "tu": {
+      "__uuid__": "0b1f5c6a-8e30-4f94-ae92-a333daded791"
+    },
+    "tu2": {
+      "__uuid__": "e93c979f-106d-4ee1-83ea-e18266072368"
+    },
+    "up": {
+      "__uuid__": "49b45d39-f81d-4b0c-b5e5-19845528bb3c"
+    },
+    "winner": {
+      "__uuid__": "777e177d-279d-4379-ad46-7985e12caf14"
+    },
+    "xigua": {
+      "__uuid__": "93b62a3f-5f2e-4e75-b82b-3dcbe1c700f6"
+    }
+  }
+}

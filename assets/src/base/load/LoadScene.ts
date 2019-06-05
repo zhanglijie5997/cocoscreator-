@@ -47,7 +47,7 @@ export default class LoadScene extends cc.Component {
      */
     public async loadMoreRes(load: string,fn:any): Promise<any> {
        
-        cc.loader.loadResDir(load,cc.AudioClip,fn)
+        await cc.loader.loadResDir(load,cc.AudioClip,fn)
 
     }
 

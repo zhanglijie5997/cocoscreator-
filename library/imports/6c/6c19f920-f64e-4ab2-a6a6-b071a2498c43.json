@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DZRY_BSZ_btn_cuowu_1",
+    "texture": "4d31d654-8a6a-4ff2-bb5c-460e616c1e63",
+    "atlas": "b05d8385-eaad-48ca-8919-5e24bd869f15",
+    "rect": [
+      1417,
+      427,
+      458,
+      390
+    ],
+    "offset": [
+      -3,
+      1
+    ],
+    "originalSize": [
+      500,
+      426
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

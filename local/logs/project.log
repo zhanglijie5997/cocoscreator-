@@ -1,150 +1,75 @@
-2019-06-03T06:10:04.528Z - normal: Load ~/.CocosCreator/settings.json
-2019-06-03T06:10:05.688Z - normal: Initializing Asset Database
-2019-06-03T06:10:05.691Z - normal: checking language setting...
-2019-06-03T06:10:05.691Z - normal: Language: zh
-2019-06-03T06:10:06.380Z - success: preview server running at http://localhost:7456
-2019-06-03T06:10:06.382Z - success: protocol editor-framework registered
-2019-06-03T06:10:06.383Z - success: protocol app registered
-2019-06-03T06:10:06.383Z - success: protocol theme registered
-2019-06-03T06:10:06.383Z - success: protocol packages registered
-2019-06-03T06:10:06.383Z - success: protocol uuid registerred
-2019-06-03T06:10:06.383Z - success: protocol db registerred
-2019-06-03T06:10:06.383Z - success: protocol thumbnail registerred
-2019-06-03T06:10:06.383Z - success: protocol unpack registerred
-2019-06-03T06:10:06.383Z - success: protocol disable-commonjs registerred
-2019-06-03T06:10:06.561Z - normal: connected!
-2019-06-03T06:10:06.561Z - normal: Check project C:\Users\User\Desktop\cocoscreator\cocoscreator-
-2019-06-03T06:10:06.563Z - normal: Initializing project C:\Users\User\Desktop\cocoscreator\cocoscreator-
-2019-06-03T06:10:06.948Z - normal: Initializing Cocos2d
-2019-06-03T06:10:07.653Z - normal: Initializing engine extends
-2019-06-03T06:10:07.670Z - success: asset-db-debugger loaded
-2019-06-03T06:10:07.671Z - success: baidu-adapter loaded
-2019-06-03T06:10:07.673Z - success: code-editor loaded
-2019-06-03T06:10:07.674Z - success: color-picker loaded
-2019-06-03T06:10:07.755Z - success: fb-audience-network loaded
-2019-06-03T06:10:07.809Z - success: fb-live-stream loaded
-2019-06-03T06:10:07.813Z - success: google-play-instant loaded
-2019-06-03T06:10:07.817Z - success: huawei-runtime loaded
-2019-06-03T06:10:07.818Z - success: jsb-adapter loaded
-2019-06-03T06:10:07.821Z - success: oppo-runtime loaded
-2019-06-03T06:10:07.825Z - success: package-manager loaded
-2019-06-03T06:10:07.942Z - success: qqplay-adapter loaded
-2019-06-03T06:10:07.945Z - success: runtime-dev-tools loaded
-2019-06-03T06:10:07.949Z - success: sdkbox loaded
-2019-06-03T06:10:07.951Z - success: tester loaded
-2019-06-03T06:10:07.953Z - success: ui-grid loaded
-2019-06-03T06:10:07.955Z - success: ui-kit-preview-extra loaded
-2019-06-03T06:10:07.956Z - success: ui-kit-preview loaded
-2019-06-03T06:10:07.957Z - success: ui-kit loaded
-2019-06-03T06:10:07.959Z - success: ui-tree loaded
-2019-06-03T06:10:07.965Z - success: vivo-runtime loaded
-2019-06-03T06:10:07.966Z - success: weapp-adapter loaded
-2019-06-03T06:10:08.004Z - success: assets loaded
-2019-06-03T06:10:08.006Z - success: builder loaded
-2019-06-03T06:10:08.286Z - success: cocos-services loaded
-2019-06-03T06:10:08.288Z - success: console loaded
-2019-06-03T06:10:08.323Z - success: fb-instant-games loaded
-2019-06-03T06:10:08.325Z - success: google-instant-games loaded
-2019-06-03T06:10:08.330Z - success: hierarchy loaded
-2019-06-03T06:10:08.332Z - success: inspector loaded
-2019-06-03T06:10:08.333Z - success: keystore loaded
-2019-06-03T06:10:08.338Z - success: node-library loaded
-2019-06-03T06:10:08.339Z - success: package-asset loaded
-2019-06-03T06:10:08.340Z - success: preferences loaded
-2019-06-03T06:10:08.342Z - success: project-exporter loaded
-2019-06-03T06:10:08.344Z - success: project-importer loaded
-2019-06-03T06:10:08.346Z - success: project-settings loaded
-2019-06-03T06:10:08.349Z - success: scene loaded
-2019-06-03T06:10:08.351Z - success: simulator-debugger loaded
-2019-06-03T06:10:08.352Z - success: sprite-editor loaded
-2019-06-03T06:10:08.356Z - success: store loaded
-2019-06-03T06:10:08.359Z - success: timeline loaded
-2019-06-03T06:10:08.363Z - success: bitmap-font loaded
-2019-06-03T06:10:08.367Z - success: hot-update-tools loaded
-2019-06-03T06:10:09.720Z - normal: Loading packages
-2019-06-03T06:10:09.727Z - normal: Watching packages
-2019-06-03T06:10:10.390Z - info: Cocos Services load base data!
-2019-06-03T06:10:10.486Z - normal: Run Application
-2019-06-03T06:39:28.506Z - warn: Please specifiy a default value for "homt" property at its declaration:
- 
-// Before:
-@property(...)
-value; 
-// After:
-@property(...)
-value = 0 onLoad
-2019-06-03T06:39:28.507Z - error: Can not declare homt.onLoad, it is already defined in the prototype of homt
-    at Object.cc.errorID (D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:167:16)
-    at defineProp (D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:122:24)
-    at declareProperties (D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:646:25)
-    at Object.CCClass [as Class] (D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:685:17)
-    at D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClassDecorator.js:183:26
-    at D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClassDecorator.js:34:28
-    at window.__decorate (D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\polyfill\typescript.js:65:38)
-    at C:\Users\User\Desktop\cocoscreator\cocoscreator-\temp\quick-scripts\assets\scripts\map\homt.js:49:12
-    at __define (C:\Users\User\Desktop\cocoscreator\cocoscreator-\temp\quick-scripts\assets\scripts\map\homt.js:53:2)
-2019-06-03T07:40:07.491Z - info: 只有预制节点 "" 及其子节点会被保存。
-2019-06-04T05:45:38.057Z - error: Do not set default value to non-empty object, unless the object defines its own 'clone' function. Set default value of 111.moves to null or {}, and initialize in 'onLoad' or 'ctor' please. (just like 'this.moves = {foo: bar};')
-    at Object.cc.errorID (D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:167:16)
-    at defineProp (D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:113:36)
-    at declareProperties (D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:646:25)
-    at Object.CCClass [as Class] (D:\cocos\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:685:17)
-    at __define (C:\Users\User\Desktop\cocoscreator\cocoscreator-\temp\quick-scripts\assets\scripts\Index\111.js:23:4)
-    at C:\Users\User\Desktop\cocoscreator\cocoscreator-\temp\quick-scripts\assets\scripts\Index\111.js:63:13
-    at Object.<anonymous> (C:\Users\User\Desktop\cocoscreator\cocoscreator-\temp\quick-scripts\assets\scripts\Index\111.js:70:11)
-    at Object.<anonymous> (C:\Users\User\Desktop\cocoscreator\cocoscreator-\temp\quick-scripts\assets\scripts\Index\111.js:73:3)
-    at Module._compile (module.js:571:32)
-2019-06-04T08:46:44.782Z - warn: The Asset used by component "cc.Animation" in prefab "mask.prefab" is missing. Detailed information:
-Node path: "mask/dark/login"
-Asset url: "db://assets/src/prefab/mask.prefab"
-Missing uuid: "ec6909b6-2fbf-4b9d-8bd4-a09ff51156cb"
-
-2019-06-04T08:46:44.783Z - warn: The Asset used by component "cc.Sprite" in prefab "mask.prefab" is missing. Detailed information:
-Node path: "mask/dark"
-Asset url: "db://assets/src/prefab/mask.prefab"
-Missing uuid: "12609fdb-89c9-4467-b899-6b95f165ddad"
-
-2019-06-04T08:46:44.783Z - warn: The Asset used by component "cc.Sprite" in prefab "mask.prefab" is missing. Detailed information:
-Node path: "mask/dark"
-Asset url: "db://assets/src/prefab/mask.prefab"
-Missing uuid: "803a88cc-4d64-4219-960b-c8ff3c21d6c9"
-
-2019-06-04T08:46:44.784Z - warn: The Asset used by component "cc.Animation" in prefab "mask.prefab" is missing. Detailed information:
-Node path: "mask/dark"
-Asset url: "db://assets/src/prefab/mask.prefab"
-Missing uuid: "ec6909b6-2fbf-4b9d-8bd4-a09ff51156cb"
-
-2019-06-04T09:51:06.295Z - warn: Failed to construct a dummy instance of the "bulletsCollision" class using `new` behind the scenes. This is for getting default values declared in TypeScript. Please ensure the class will be able to construct during script's initialization. TypeError: Cannot read property 'width' of null.
-2019-06-04T09:51:06.297Z - warn: Please specifiy a default value for "bulletsCollision" property at its declaration:
- 
-// Before:
-@property(...)
-value; 
-// After:
-@property(...)
-value = 0 bullet
-2019-06-04T09:51:06.298Z - warn: Please specifiy a default value for "bulletsCollision" property at its declaration:
- 
-// Before:
-@property(...)
-value; 
-// After:
-@property(...)
-value = 0 people
-2019-06-04T09:51:16.641Z - warn: Failed to construct a dummy instance of the "bulletsCollision" class using `new` behind the scenes. This is for getting default values declared in TypeScript. Please ensure the class will be able to construct during script's initialization. TypeError: Cannot read property 'width' of null.
-2019-06-04T09:51:16.641Z - warn: Please specifiy a default value for "bulletsCollision" property at its declaration:
- 
-// Before:
-@property(...)
-value; 
-// After:
-@property(...)
-value = 0 bullet
-2019-06-04T09:51:16.641Z - warn: Please specifiy a default value for "bulletsCollision" property at its declaration:
- 
-// Before:
-@property(...)
-value; 
-// After:
-@property(...)
-value = 0 people
+2019-06-05T06:07:12.499Z - normal: Load ~/.CocosCreator/settings.json
+2019-06-05T06:07:13.676Z - normal: Initializing Asset Database
+2019-06-05T06:07:13.679Z - normal: checking language setting...
+2019-06-05T06:07:13.679Z - normal: Language: zh
+2019-06-05T06:07:14.397Z - success: preview server running at http://localhost:7456
+2019-06-05T06:07:14.399Z - success: protocol editor-framework registered
+2019-06-05T06:07:14.399Z - success: protocol app registered
+2019-06-05T06:07:14.399Z - success: protocol theme registered
+2019-06-05T06:07:14.400Z - success: protocol packages registered
+2019-06-05T06:07:14.400Z - success: protocol uuid registerred
+2019-06-05T06:07:14.400Z - success: protocol db registerred
+2019-06-05T06:07:14.400Z - success: protocol thumbnail registerred
+2019-06-05T06:07:14.400Z - success: protocol unpack registerred
+2019-06-05T06:07:14.401Z - success: protocol disable-commonjs registerred
+2019-06-05T06:07:14.584Z - normal: connected!
+2019-06-05T06:07:14.585Z - normal: Check project C:\Users\User\Desktop\cocoscreator\cocoscreator-
+2019-06-05T06:07:14.586Z - normal: Initializing project C:\Users\User\Desktop\cocoscreator\cocoscreator-
+2019-06-05T06:07:15.016Z - normal: Initializing Cocos2d
+2019-06-05T06:07:15.799Z - normal: Initializing engine extends
+2019-06-05T06:07:15.818Z - success: asset-db-debugger loaded
+2019-06-05T06:07:15.818Z - success: baidu-adapter loaded
+2019-06-05T06:07:15.820Z - success: code-editor loaded
+2019-06-05T06:07:15.820Z - success: color-picker loaded
+2019-06-05T06:07:15.910Z - success: fb-audience-network loaded
+2019-06-05T06:07:15.964Z - success: fb-live-stream loaded
+2019-06-05T06:07:15.967Z - success: google-play-instant loaded
+2019-06-05T06:07:15.972Z - success: huawei-runtime loaded
+2019-06-05T06:07:15.973Z - success: jsb-adapter loaded
+2019-06-05T06:07:15.977Z - success: oppo-runtime loaded
+2019-06-05T06:07:15.979Z - success: package-manager loaded
+2019-06-05T06:07:16.110Z - success: qqplay-adapter loaded
+2019-06-05T06:07:16.112Z - success: runtime-dev-tools loaded
+2019-06-05T06:07:16.115Z - success: sdkbox loaded
+2019-06-05T06:07:16.118Z - success: tester loaded
+2019-06-05T06:07:16.120Z - success: ui-grid loaded
+2019-06-05T06:07:16.123Z - success: ui-kit-preview-extra loaded
+2019-06-05T06:07:16.124Z - success: ui-kit-preview loaded
+2019-06-05T06:07:16.126Z - success: ui-kit loaded
+2019-06-05T06:07:16.127Z - success: ui-tree loaded
+2019-06-05T06:07:16.131Z - success: vivo-runtime loaded
+2019-06-05T06:07:16.132Z - success: weapp-adapter loaded
+2019-06-05T06:07:16.170Z - success: assets loaded
+2019-06-05T06:07:16.172Z - success: builder loaded
+2019-06-05T06:07:16.450Z - success: cocos-services loaded
+2019-06-05T06:07:16.453Z - success: console loaded
+2019-06-05T06:07:16.500Z - success: fb-instant-games loaded
+2019-06-05T06:07:16.501Z - success: google-instant-games loaded
+2019-06-05T06:07:16.505Z - success: hierarchy loaded
+2019-06-05T06:07:16.508Z - success: inspector loaded
+2019-06-05T06:07:16.509Z - success: keystore loaded
+2019-06-05T06:07:16.512Z - success: node-library loaded
+2019-06-05T06:07:16.514Z - success: package-asset loaded
+2019-06-05T06:07:16.515Z - success: preferences loaded
+2019-06-05T06:07:16.516Z - success: project-exporter loaded
+2019-06-05T06:07:16.517Z - success: project-importer loaded
+2019-06-05T06:07:16.519Z - success: project-settings loaded
+2019-06-05T06:07:16.528Z - success: scene loaded
+2019-06-05T06:07:16.529Z - success: simulator-debugger loaded
+2019-06-05T06:07:16.530Z - success: sprite-editor loaded
+2019-06-05T06:07:16.534Z - success: store loaded
+2019-06-05T06:07:16.536Z - success: timeline loaded
+2019-06-05T06:07:16.539Z - success: bitmap-font loaded
+2019-06-05T06:07:16.547Z - success: hot-update-tools loaded
+2019-06-05T06:07:18.092Z - normal: Loading packages
+2019-06-05T06:07:18.100Z - normal: Watching packages
+2019-06-05T06:07:18.795Z - normal: Run Application
+2019-06-05T06:07:19.124Z - info: Cocos Services load base data!
+2019-06-05T06:08:04.775Z - error: TypeError: Cannot read property 'length' of null
+    at Vue.onUpdateSaveName (C:\Users\User\.CocosCreator\packages\bitmap-font\panel\index.js:1:3779)
+    at HTMLElement.<anonymous> (app://node_modules/vue/dist/vue.js:220:54)
+    at HTMLElement._setFocused (D:\cocos\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ui\behaviors\focusable.js:1:999)
+    at Object.e._setFocusElement (D:\cocos\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ui\utils\focus-mgr.js:1:2150)
+    at HTMLElement.i.addEventListener.s (D:\cocos\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ui\behaviors\button-state.js:1:1000)
+    at Object.e.fire (D:\cocos\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ui\utils\dom-utils.js:1:1797)
+    at HTMLElement.<anonymous> (D:\cocos\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ui\utils\dom-utils.js:1:2383)

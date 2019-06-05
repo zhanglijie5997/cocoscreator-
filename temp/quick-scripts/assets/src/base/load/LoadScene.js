@@ -48,8 +48,12 @@ var LoadScene = /** @class */ (function (_super) {
     LoadScene.prototype.loadMoreRes = function (load, fn) {
         return __awaiter(this, void 0, Promise, function () {
             return __generator(this, function (_a) {
-                cc.loader.loadResDir(load, cc.AudioClip, fn);
-                return [2 /*return*/];
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, cc.loader.loadResDir(load, cc.AudioClip, fn)];
+                    case 1:
+                        _a.sent();
+                        return [2 /*return*/];
+                }
             });
         });
     };

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "click05",
+    "texture": "4d31d654-8a6a-4ff2-bb5c-460e616c1e63",
+    "atlas": "b05d8385-eaad-48ca-8919-5e24bd869f15",
+    "rect": [
+      1952,
+      412,
+      232,
+      73
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      232,
+      73
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

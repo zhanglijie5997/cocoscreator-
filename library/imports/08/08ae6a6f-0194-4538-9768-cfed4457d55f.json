@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pingguo3 (2)",
+    "texture": "e83ef258-e5dc-46d8-930f-d75c22cde6b0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      164,
+      118
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      164,
+      118
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

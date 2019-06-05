@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gameing_1",
+    "texture": "4d31d654-8a6a-4ff2-bb5c-460e616c1e63",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2043,
+      1102
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      2045,
+      1102
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
