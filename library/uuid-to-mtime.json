@@ -755,8 +755,8 @@
     "relativePath": "src\\prefab\\apple\\addSprite.prefab"
   },
   "32afbb6e-9c15-4378-a33d-78d9425de09d": {
-    "asset": 1559731704369,
-    "meta": 1559731707445,
+    "asset": 1559732305751,
+    "meta": 1559732306914,
     "relativePath": "scripts\\apple\\appleIndex.ts"
   }
 }

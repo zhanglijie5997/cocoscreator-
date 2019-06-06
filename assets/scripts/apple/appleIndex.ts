@@ -263,20 +263,20 @@ export default class NewClass extends cc.Component {
 
         this.num++;
 
+
         if (this.num > 23) {
 
             this.num = 0;
 
-
-            if(!this.speedCurd) {
+           
+            if (!this.speedCurd) {
 
                 this.turns += 1;
 
             }
-          
+
 
             cc.log(this.turns)
-
 
 
             // 转4圈之后速度减小
@@ -288,25 +288,33 @@ export default class NewClass extends cc.Component {
 
                 // this.speedCurd = true;
 
-                /* this.speed = 0.2;
+                this.speed = 0.2;
 
                 // 重新执行一个新的定时器
                 this.schedule(this._scheduleFn, this.speed)
 
-                */
+                cc.log(this.num,999)
+
+               
+
+                if (this.num === this.winnerNum) {
+
+                    this.unschedule(this._scheduleFn)
+
+                }
             }
 
-             // 转完4圈后，速度递减
-             if (this.speedCurd) {
+            // 转完4圈后，速度递减
+            if (this.speedCurd) {
 
                 this.unschedule(this._scheduleFn);
 
                 // 每帧开启一个新的定时器
                 this._remainingNum();
 
-               
 
-               
+
+
 
             }
 
@@ -319,17 +327,17 @@ export default class NewClass extends cc.Component {
 
         this.speed = this.k / (this.winnerNum - this.num);
 
-        cc.log(this.speed,555)
+        cc.log(this.speed, 555)
 
         this.unschedule(this._scheduleFn)
 
         // cc.log()
         this.schedule(this._scheduleFn, this.speed)
 
-        cc.log('123',this.turns,this.speed,this.num)
+        cc.log('123', this.turns, this.speed, this.num)
 
         if (this.num === this.winnerNum) {
-           
+
             this.unschedule(this._scheduleFn);
 
         }

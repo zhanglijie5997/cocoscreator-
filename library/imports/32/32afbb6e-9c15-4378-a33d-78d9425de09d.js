@@ -174,12 +174,13 @@ var NewClass = /** @class */ (function (_super) {
                 // this.turns = 0;
                 this.unschedule(this._scheduleFn);
                 // this.speedCurd = true;
-                /* this.speed = 0.2;
-
+                this.speed = 0.2;
                 // 重新执行一个新的定时器
-                this.schedule(this._scheduleFn, this.speed)
-
-                */
+                this.schedule(this._scheduleFn, this.speed);
+                cc.log(this.num, 999);
+                if (this.num === this.winnerNum) {
+                    this.unschedule(this._scheduleFn);
+                }
             }
             // 转完4圈后，速度递减
             if (this.speedCurd) {
