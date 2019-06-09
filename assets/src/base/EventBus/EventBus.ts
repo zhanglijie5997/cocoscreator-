@@ -3,7 +3,7 @@ class EventBus {
     constructor() {
         this.events = this.events || new Object();
     }
-    public $emit(type: string, ...args): void {
+    public $emit(type: string, ...args:any): void {
         let e;
         e = this.events[type];
         // 查看这个type的event有多少个回调函数，如果有多个需要依次调用。
@@ -17,7 +17,7 @@ class EventBus {
         }
     }
 
-    public $on(type: string, fun) {
+    public $on(type: string, fun:Function) {
 
         const e = this.events[type];
 
@@ -30,11 +30,10 @@ class EventBus {
         }
     }
 
-    public $off(type: string, fun) {
+    public $off(type: string, fun: Function) {
         const e = this.events[type];
-        cc.log(fun, 'fun')
         let KEY = Object.keys(this.events);
-        var slice1;
+        var slice1:string;
         for (var i = 0; i < KEY.length; i++) {
             if (KEY[i] === type) {
                 cc.log(KEY[i], '5555');

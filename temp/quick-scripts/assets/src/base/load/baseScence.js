@@ -27,6 +27,15 @@ var baseScence = /** @class */ (function (_super) {
             }
         }
     };
+    /**
+     * 竖屏适配方案二
+     */
+    baseScence.prototype.init = function () {
+        var frameSize = cc.view.getFrameSize();
+        var bFitWidth = (frameSize.width / frameSize.height) < (750 / 1334);
+        cc.Canvas.instance.fitWidth = bFitWidth;
+        cc.Canvas.instance.fitHeight = !bFitWidth;
+    };
     baseScence = __decorate([
         ccclass
     ], baseScence);

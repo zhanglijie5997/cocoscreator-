@@ -21,9 +21,9 @@ var Move = /** @class */ (function (_super) {
      * @param y    移动的y轴
      * @param node 移动节点
      *
-     * @example:
+     * @example
      *
-     * this._moveTo(1,100,200,this.node)
+     *     this._moveTo(1,100,200,this.node)
      */
     Move.prototype._moveTo = function (time, x, y, node) {
         var move = cc.moveTo(time, cc.v2(x, y));
@@ -40,15 +40,15 @@ var Move = /** @class */ (function (_super) {
      * @param repeat 是否重复一次，true =>重复一次  false => 无限重复
      * @param num  重复次数
      *
-     *  @example:
+     *  @example
      *
-     *  重复运动5次
+     *        重复运动5次
      *
-     *  this._moveBy(2,100,100,-100,-100,this.node,false,5)
+     *        this._moveBy(2,100,100,-100,-100,this.node,false,5)
      *
-     *  无限运动
+     *        无限运动
      *
-     *  this._moveBy(2,100,100,-100,-100,this.node,false)
+     *        this._moveBy(2,100,100,-100,-100,this.node,false)
      */
     Move.prototype._moveBy = function (time, x, y, x1, y1, node, repeat, num) {
         if (num === void 0) { num = 1; }
@@ -69,9 +69,9 @@ var Move = /** @class */ (function (_super) {
      * @param blink    闪烁透明度
      * @param node     闪烁节点
      *
-     *  @example:
+     *  @example
      *
-     *  this._blink(2,5,this.node)
+     *      this._blink(2,5,this.node)
      */
     Move.prototype._blink = function (duration, blink, node) {
         var action = cc.blink(duration, blink);
@@ -83,9 +83,9 @@ var Move = /** @class */ (function (_super) {
      * @param opacity  运动透明度
      * @param node     运动节点
      * @param callback 回调执行其他动作，例如加分减分
-     *  @example:
+     *  @example
      *
-     *  this._toogle(2,0.5,this.node)
+     *      this._toogle(2,0.5,this.node)
      */
     Move.prototype._toggle = function (time, opacity, node, callback) {
         var start = cc.fadeTo(time, opacity);
@@ -98,9 +98,9 @@ var Move = /** @class */ (function (_super) {
      * @param node 目标节点
      * @param cc.rect  创建一个矩形
      *
-     * @example:
+     * @example
      *
-     * this.followAction(this.node)
+     *      this.followAction(this.node)
      */
     Move.prototype.followAction = function (node) {
         var followAction = cc.follow(node, cc.rect(0, 0, 100, 100));
@@ -113,8 +113,13 @@ var Move = /** @class */ (function (_super) {
      * @param y        跳起高度
      * @param node     跳起节点
      * @param repeat   是否无限
+     *
+     * @example
+     *    this.jump(1,cc.v2(100,100),100,this.node)      // 不重复跳动，跳动到指定位置
+     *    this.jump(1,cc.v2(100,100),100,this.node,true) // 重复跳动，来回反复
      */
     Move.prototype.jump = function (time, position, y, node, repeat) {
+        if (repeat === void 0) { repeat = false; }
         var jump;
         if (repeat) {
             // 跳动一次

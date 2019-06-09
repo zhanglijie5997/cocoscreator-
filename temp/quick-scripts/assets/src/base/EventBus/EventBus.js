@@ -37,7 +37,6 @@ var EventBus = /** @class */ (function () {
     };
     EventBus.prototype.$off = function (type, fun) {
         var e = this.events[type];
-        cc.log(fun, 'fun');
         var KEY = Object.keys(this.events);
         var slice1;
         for (var i = 0; i < KEY.length; i++) {
