@@ -324,45 +324,15 @@
     "meta": 1559525627348,
     "relativePath": "resources\\audio"
   },
-  "9540a30d-eb37-4ce2-bd1a-66a0183bcfd6": {
-    "asset": 1559525627351,
-    "meta": 1559525684473,
-    "relativePath": "resources\\audio\\AlbumArt_{B5020207-474E-4720-C8D4-661CA0DEB000}_Large.jpg"
-  },
-  "d9245922-a149-4703-bbd6-ece8d05569a9": {
-    "asset": 1559525627353,
-    "meta": 1559525684471,
-    "relativePath": "resources\\audio\\AlbumArt_{B5020207-474E-4720-C8D4-661CA0DEB000}_Small.jpg"
-  },
-  "47261e1c-dfe8-4299-97f9-d773fc3a607d": {
-    "asset": 1559525627349,
-    "meta": 1559525684483,
-    "relativePath": "resources\\audio\\AlbumArtSmall.jpg"
-  },
-  "745e9139-b7f1-4f7f-b3d4-96e50e028ff0": {
-    "asset": 1559525627354,
-    "meta": 1559525684500,
-    "relativePath": "resources\\audio\\Folder.jpg"
-  },
   "af1cf05e-8749-477e-bbf8-8d3da91f15db": {
     "asset": 1559525627434,
     "meta": 1559525685269,
     "relativePath": "resources\\audio\\background.mp3"
   },
-  "4ae67dca-7747-4361-877a-dbde11b54f29": {
-    "asset": 1559525685407,
-    "meta": 1559525685408,
-    "relativePath": "src\\prefab\\mask.prefab"
-  },
   "e29dbefd-1093-47e3-a59f-f3b05fd871c0": {
     "asset": 1559525627632,
     "meta": 1559525627629,
     "relativePath": "src\\prefab\\animate"
-  },
-  "2c7fc827-e892-46b3-9744-2f6cf80c0270": {
-    "asset": 1559525685386,
-    "meta": 1559525685387,
-    "relativePath": "src\\prefab\\animate\\dark.prefab"
   },
   "152f4b52-127a-4532-9204-3d5ed233c459": {
     "asset": 1559525627468,
@@ -419,11 +389,6 @@
     "meta": 1559525627437,
     "relativePath": "scene"
   },
-  "7cde817a-9cb8-4712-a417-e6c8c9f6a446": {
-    "asset": 1559638759975,
-    "meta": 1559638759989,
-    "relativePath": "scene\\index.fire"
-  },
   "b3ea8c46-0cab-49bc-a1ba-4566e6b53e3e": {
     "asset": 1559525627472,
     "meta": 1559525685071,
@@ -439,55 +404,10 @@
     "meta": 1559525685496,
     "relativePath": "src\\images\\HeroClip\\Hero02.plist"
   },
-  "41ca4933-5c71-445a-a283-87da25015871": {
-    "asset": 1559525627615,
-    "meta": 1559525685339,
-    "relativePath": "src\\images\\HeroClip\\Hero02.png"
-  },
-  "96945996-016a-4290-b00d-1bd0e1192d03": {
-    "asset": 1559525627464,
-    "meta": 1559525684958,
-    "relativePath": "src\\base\\animation\\people.anim"
-  },
-  "5d883174-8ec2-46b1-a116-ed55b58e1a06": {
-    "asset": 1559525685409,
-    "meta": 1559525685411,
-    "relativePath": "src\\prefab\\people.prefab"
-  },
   "b14aea6f-5789-4912-be87-bfcd738adc78": {
     "asset": 1559525627605,
     "meta": 1559525685474,
     "relativePath": "src\\images\\HeroClip\\GameUI.plist"
-  },
-  "e0ca9f57-89f0-4f67-a8e1-dd4c5fc9d5fe": {
-    "asset": 1559525627610,
-    "meta": 1559525685346,
-    "relativePath": "src\\images\\HeroClip\\GameUI.png"
-  },
-  "e142c814-69b4-47b4-a30a-c650641f08de": {
-    "asset": 1559525685389,
-    "meta": 1559525685390,
-    "relativePath": "src\\prefab\\bullet.prefab"
-  },
-  "c34327d2-edae-4b4d-94e7-97405a53a587": {
-    "asset": 1559525627619,
-    "meta": 1559525685370,
-    "relativePath": "src\\images\\HeroClip\\slice01_01.png"
-  },
-  "97ab4e1e-ed4a-499d-b510-23769d5ba723": {
-    "asset": 1559525627465,
-    "meta": 1559525684974,
-    "relativePath": "src\\base\\animation\\peopleJump.anim"
-  },
-  "d819a3d1-79b3-49aa-8408-e30abe47feb8": {
-    "asset": 1559525685392,
-    "meta": 1559525685393,
-    "relativePath": "src\\prefab\\collisionBody.prefab"
-  },
-  "4cf4f16f-5b9d-44d1-8c51-eefd40ececeb": {
-    "asset": 1559525685396,
-    "meta": 1559525685397,
-    "relativePath": "src\\prefab\\hart.prefab"
   },
   "9d6c9ba6-bf91-41ba-8fde-e459fcf6a445": {
     "asset": 1559627141333,
@@ -499,16 +419,6 @@
     "meta": 1559525627461,
     "relativePath": "src\\base\\animation"
   },
-  "487c19ad-f4ed-4a0b-8c5e-ca4ea495df6b": {
-    "asset": 1559639076727,
-    "meta": 1559639076743,
-    "relativePath": "scene\\home.fire"
-  },
-  "fc7f8e7e-42bd-4a6b-bc2c-264630faf7c6": {
-    "asset": 1559525627617,
-    "meta": 1559525685360,
-    "relativePath": "src\\images\\HeroClip\\homeBg.png"
-  },
   "8a371f30-26f9-4397-9da8-8cf6ca4d0b9a": {
     "asset": 1559525627446,
     "meta": 1559525684848,
@@ -519,50 +429,15 @@
     "meta": 1559525684819,
     "relativePath": "scripts\\Index\\collision.ts"
   },
-  "72812482-836a-4651-98ab-4e67d18b599a": {
-    "asset": 1559525627622,
-    "meta": 1559525685372,
-    "relativePath": "src\\images\\map.jpeg"
-  },
-  "ab9941bc-4514-4727-b135-98f6a7f62a97": {
-    "asset": 1559525627462,
-    "meta": 1559525684943,
-    "relativePath": "src\\base\\animation\\map.anim"
-  },
-  "67700512-2941-4472-acf2-dc77248e1ccb": {
-    "asset": 1559525627624,
-    "meta": 1559525685381,
-    "relativePath": "src\\images\\shop_icon_char1.png"
-  },
-  "1b178361-40f5-4851-94f8-1d865185d1a4": {
-    "asset": 1559525627625,
-    "meta": 1559525685383,
-    "relativePath": "src\\images\\success_star.png"
-  },
-  "cf4a7195-4574-42ed-9850-333cf7c14613": {
-    "asset": 1559525627627,
-    "meta": 1559525685405,
-    "relativePath": "src\\images\\teach_char.png"
-  },
   "6600c979-4d2f-45c1-b384-da759ceb7312": {
     "asset": 1559543938683,
     "meta": 1559525627637,
     "relativePath": "src\\prefab\\mapPeople"
   },
-  "e636eab7-98f5-45b7-af4e-2772b55a735e": {
-    "asset": 1559548029081,
-    "meta": 1559548029093,
-    "relativePath": "src\\prefab\\mapPeople\\peopleMap.prefab"
-  },
   "2016b3ec-3845-423d-9a70-652a1a6863c2": {
     "asset": 1559529949818,
     "meta": 1559525627452,
     "relativePath": "scripts\\map"
-  },
-  "dd6c9b86-0080-4858-9ab6-fd00a9e87c7b": {
-    "asset": 1559548732318,
-    "meta": 1559548732331,
-    "relativePath": "src\\prefab\\mapPeople\\bullet.prefab"
   },
   "4ed2d839-3afa-4289-a6e2-fd795af4f383": {
     "asset": 1559530518447,
@@ -574,11 +449,6 @@
     "meta": 1559542979069,
     "relativePath": "src\\base\\http\\HTTP.ts"
   },
-  "1ac88388-7437-4077-a094-082a423f45af": {
-    "asset": 1559641568379,
-    "meta": 1559641568402,
-    "relativePath": "src\\prefab\\mapPeople\\teach_char.prefab"
-  },
   "c68ad3ad-228c-4c6d-ace1-e5437cec08d8": {
     "asset": 1559550938318,
     "meta": 1559550939567,
@@ -588,11 +458,6 @@
     "asset": 1559619693292,
     "meta": 1559619693291,
     "relativePath": "resources\\images"
-  },
-  "ee92179b-3d75-4fac-adc6-905cf9104384": {
-    "asset": 1559525627354,
-    "meta": 1559619693486,
-    "relativePath": "resources\\images\\Folder.jpg"
   },
   "92226878-bc95-44ec-b625-c390e8fecf6b": {
     "asset": 1559635430005,
@@ -654,46 +519,6 @@
     "meta": 1559707220823,
     "relativePath": "src\\images\\apple\\apple.plist"
   },
-  "517e0504-c712-4044-b933-4454b91b1408": {
-    "asset": 1559707071118,
-    "meta": 1559707220703,
-    "relativePath": "src\\images\\apple\\apple.png"
-  },
-  "bb0a4b0d-aa6d-462d-be3c-63e567202004": {
-    "asset": 1559707173117,
-    "meta": 1559707220707,
-    "relativePath": "src\\images\\apple\\apple333.png"
-  },
-  "ba3b9d72-a0af-453f-91f1-e78fdb6221bd": {
-    "asset": 1559677544000,
-    "meta": 1559707220728,
-    "relativePath": "src\\images\\apple\\deng.png"
-  },
-  "27b46135-def8-40d8-808c-a030a236a689": {
-    "asset": 1559730071068,
-    "meta": 1559730071088,
-    "relativePath": "scene\\apple.fire"
-  },
-  "4b0e6aa4-17af-431e-814e-d23b4afd80ee": {
-    "asset": 1559707468477,
-    "meta": 1559707470977,
-    "relativePath": "src\\images\\apple\\timg.jpg"
-  },
-  "a4d62779-243c-46f0-a8c7-0de58b4ceaa8": {
-    "asset": 1559709820467,
-    "meta": 1559709826612,
-    "relativePath": "src\\images\\apple\\bg1.jpg"
-  },
-  "93e7a54a-fd59-426f-8b89-d86b58bfe357": {
-    "asset": 1559709855436,
-    "meta": 1559709856567,
-    "relativePath": "src\\images\\apple\\timg2.jpg"
-  },
-  "4d31d654-8a6a-4ff2-bb5c-460e616c1e63": {
-    "asset": 1559183338494,
-    "meta": 1559713727806,
-    "relativePath": "src\\images\\apple\\gameing_1.png"
-  },
   "b05d8385-eaad-48ca-8919-5e24bd869f15": {
     "asset": 1558516413711,
     "meta": 1559713762150,
@@ -708,31 +533,6 @@
     "asset": 1559714765781,
     "meta": 1559714906362,
     "relativePath": "src\\font\\numberFont\\numberFont.fnt"
-  },
-  "6be235c9-b628-4c25-811b-197ec5c112ff": {
-    "asset": 1559714765780,
-    "meta": 1559714906358,
-    "relativePath": "src\\font\\numberFont\\numberFont.png"
-  },
-  "9dcafaf7-0a4b-474b-9833-395336076fe0": {
-    "asset": 1559677544000,
-    "meta": 1559715975114,
-    "relativePath": "src\\images\\apple\\addjuzi.png"
-  },
-  "e83ef258-e5dc-46d8-930f-d75c22cde6b0": {
-    "asset": 1559677544000,
-    "meta": 1559715975117,
-    "relativePath": "src\\images\\apple\\pingguo3 (2).png"
-  },
-  "c7af0049-218a-423e-b84e-01f6da5fd731": {
-    "asset": 1559716405049,
-    "meta": 1559716456049,
-    "relativePath": "src\\images\\apple\\line.jpg"
-  },
-  "cb71e8da-b08b-4be2-a4f0-605324629b04": {
-    "asset": 1554877611864,
-    "meta": 1559716593340,
-    "relativePath": "src\\images\\apple\\DZRY_BSZ_fengexian.png"
   },
   "df267501-acf0-44c3-b807-df00e02a1190": {
     "asset": 1559717150268,
@@ -749,14 +549,214 @@
     "meta": 1559723332087,
     "relativePath": "src\\prefab\\apple"
   },
+  "9540a30d-eb37-4ce2-bd1a-66a0183bcfd6": {
+    "asset": 1559525627351,
+    "meta": 1559800021920,
+    "relativePath": "resources\\audio\\AlbumArt_{B5020207-474E-4720-C8D4-661CA0DEB000}_Large.jpg"
+  },
+  "d9245922-a149-4703-bbd6-ece8d05569a9": {
+    "asset": 1559525627353,
+    "meta": 1559800021923,
+    "relativePath": "resources\\audio\\AlbumArt_{B5020207-474E-4720-C8D4-661CA0DEB000}_Small.jpg"
+  },
+  "47261e1c-dfe8-4299-97f9-d773fc3a607d": {
+    "asset": 1559525627349,
+    "meta": 1559800021947,
+    "relativePath": "resources\\audio\\AlbumArtSmall.jpg"
+  },
+  "745e9139-b7f1-4f7f-b3d4-96e50e028ff0": {
+    "asset": 1559525627354,
+    "meta": 1559800021949,
+    "relativePath": "resources\\audio\\Folder.jpg"
+  },
+  "27b46135-def8-40d8-808c-a030a236a689": {
+    "asset": 1559800021962,
+    "meta": 1559800021966,
+    "relativePath": "scene\\apple.fire"
+  },
+  "487c19ad-f4ed-4a0b-8c5e-ca4ea495df6b": {
+    "asset": 1559800021970,
+    "meta": 1559800021971,
+    "relativePath": "scene\\home.fire"
+  },
+  "7cde817a-9cb8-4712-a417-e6c8c9f6a446": {
+    "asset": 1559800021974,
+    "meta": 1559800021975,
+    "relativePath": "scene\\index.fire"
+  },
+  "ee92179b-3d75-4fac-adc6-905cf9104384": {
+    "asset": 1559525627354,
+    "meta": 1559800022195,
+    "relativePath": "resources\\images\\Folder.jpg"
+  },
+  "ab9941bc-4514-4727-b135-98f6a7f62a97": {
+    "asset": 1559525627462,
+    "meta": 1559800022199,
+    "relativePath": "src\\base\\animation\\map.anim"
+  },
+  "96945996-016a-4290-b00d-1bd0e1192d03": {
+    "asset": 1559525627464,
+    "meta": 1559800022202,
+    "relativePath": "src\\base\\animation\\people.anim"
+  },
+  "97ab4e1e-ed4a-499d-b510-23769d5ba723": {
+    "asset": 1559525627465,
+    "meta": 1559800022206,
+    "relativePath": "src\\base\\animation\\peopleJump.anim"
+  },
+  "9dcafaf7-0a4b-474b-9833-395336076fe0": {
+    "asset": 1559677544000,
+    "meta": 1559800022217,
+    "relativePath": "src\\images\\apple\\addjuzi.png"
+  },
+  "6be235c9-b628-4c25-811b-197ec5c112ff": {
+    "asset": 1559714765780,
+    "meta": 1559800022224,
+    "relativePath": "src\\font\\numberFont\\numberFont.png"
+  },
+  "517e0504-c712-4044-b933-4454b91b1408": {
+    "asset": 1559707071118,
+    "meta": 1559800022254,
+    "relativePath": "src\\images\\apple\\apple.png"
+  },
+  "bb0a4b0d-aa6d-462d-be3c-63e567202004": {
+    "asset": 1559707173117,
+    "meta": 1559800022280,
+    "relativePath": "src\\images\\apple\\apple333.png"
+  },
+  "a4d62779-243c-46f0-a8c7-0de58b4ceaa8": {
+    "asset": 1559709820467,
+    "meta": 1559800022300,
+    "relativePath": "src\\images\\apple\\bg1.jpg"
+  },
+  "ba3b9d72-a0af-453f-91f1-e78fdb6221bd": {
+    "asset": 1559677544000,
+    "meta": 1559800022304,
+    "relativePath": "src\\images\\apple\\deng.png"
+  },
+  "cb71e8da-b08b-4be2-a4f0-605324629b04": {
+    "asset": 1554877611864,
+    "meta": 1559800022324,
+    "relativePath": "src\\images\\apple\\DZRY_BSZ_fengexian.png"
+  },
+  "4d31d654-8a6a-4ff2-bb5c-460e616c1e63": {
+    "asset": 1559183338494,
+    "meta": 1559800022359,
+    "relativePath": "src\\images\\apple\\gameing_1.png"
+  },
+  "c7af0049-218a-423e-b84e-01f6da5fd731": {
+    "asset": 1559716405049,
+    "meta": 1559800022369,
+    "relativePath": "src\\images\\apple\\line.jpg"
+  },
+  "e83ef258-e5dc-46d8-930f-d75c22cde6b0": {
+    "asset": 1559677544000,
+    "meta": 1559800022371,
+    "relativePath": "src\\images\\apple\\pingguo3 (2).png"
+  },
+  "4b0e6aa4-17af-431e-814e-d23b4afd80ee": {
+    "asset": 1559707468477,
+    "meta": 1559800022384,
+    "relativePath": "src\\images\\apple\\timg.jpg"
+  },
+  "93e7a54a-fd59-426f-8b89-d86b58bfe357": {
+    "asset": 1559709855436,
+    "meta": 1559800022386,
+    "relativePath": "src\\images\\apple\\timg2.jpg"
+  },
+  "41ca4933-5c71-445a-a283-87da25015871": {
+    "asset": 1559525627615,
+    "meta": 1559800022458,
+    "relativePath": "src\\images\\HeroClip\\Hero02.png"
+  },
+  "fc7f8e7e-42bd-4a6b-bc2c-264630faf7c6": {
+    "asset": 1559525627617,
+    "meta": 1559800022477,
+    "relativePath": "src\\images\\HeroClip\\homeBg.png"
+  },
+  "e0ca9f57-89f0-4f67-a8e1-dd4c5fc9d5fe": {
+    "asset": 1559525627610,
+    "meta": 1559800022495,
+    "relativePath": "src\\images\\HeroClip\\GameUI.png"
+  },
+  "72812482-836a-4651-98ab-4e67d18b599a": {
+    "asset": 1559525627622,
+    "meta": 1559800022509,
+    "relativePath": "src\\images\\map.jpeg"
+  },
+  "c34327d2-edae-4b4d-94e7-97405a53a587": {
+    "asset": 1559525627619,
+    "meta": 1559800022512,
+    "relativePath": "src\\images\\HeroClip\\slice01_01.png"
+  },
+  "67700512-2941-4472-acf2-dc77248e1ccb": {
+    "asset": 1559525627624,
+    "meta": 1559800022522,
+    "relativePath": "src\\images\\shop_icon_char1.png"
+  },
+  "1b178361-40f5-4851-94f8-1d865185d1a4": {
+    "asset": 1559525627625,
+    "meta": 1559800022524,
+    "relativePath": "src\\images\\success_star.png"
+  },
+  "2c7fc827-e892-46b3-9744-2f6cf80c0270": {
+    "asset": 1559800022530,
+    "meta": 1559800022532,
+    "relativePath": "src\\prefab\\animate\\dark.prefab"
+  },
   "61e578c8-fe0e-485b-b91a-2f320998fc18": {
-    "asset": 1559723336756,
-    "meta": 1559723336760,
+    "asset": 1559800022534,
+    "meta": 1559800022535,
     "relativePath": "src\\prefab\\apple\\addSprite.prefab"
   },
+  "e142c814-69b4-47b4-a30a-c650641f08de": {
+    "asset": 1559800022538,
+    "meta": 1559800022540,
+    "relativePath": "src\\prefab\\bullet.prefab"
+  },
+  "d819a3d1-79b3-49aa-8408-e30abe47feb8": {
+    "asset": 1559800022545,
+    "meta": 1559800022547,
+    "relativePath": "src\\prefab\\collisionBody.prefab"
+  },
+  "4cf4f16f-5b9d-44d1-8c51-eefd40ececeb": {
+    "asset": 1559800022551,
+    "meta": 1559800022553,
+    "relativePath": "src\\prefab\\hart.prefab"
+  },
+  "cf4a7195-4574-42ed-9850-333cf7c14613": {
+    "asset": 1559525627627,
+    "meta": 1559800022556,
+    "relativePath": "src\\images\\teach_char.png"
+  },
+  "dd6c9b86-0080-4858-9ab6-fd00a9e87c7b": {
+    "asset": 1559800022560,
+    "meta": 1559800022562,
+    "relativePath": "src\\prefab\\mapPeople\\bullet.prefab"
+  },
+  "e636eab7-98f5-45b7-af4e-2772b55a735e": {
+    "asset": 1559800022564,
+    "meta": 1559800022566,
+    "relativePath": "src\\prefab\\mapPeople\\peopleMap.prefab"
+  },
+  "1ac88388-7437-4077-a094-082a423f45af": {
+    "asset": 1559800022568,
+    "meta": 1559800022569,
+    "relativePath": "src\\prefab\\mapPeople\\teach_char.prefab"
+  },
+  "4ae67dca-7747-4361-877a-dbde11b54f29": {
+    "asset": 1559800022571,
+    "meta": 1559800022573,
+    "relativePath": "src\\prefab\\mask.prefab"
+  },
+  "5d883174-8ec2-46b1-a116-ed55b58e1a06": {
+    "asset": 1559800022574,
+    "meta": 1559800022577,
+    "relativePath": "src\\prefab\\people.prefab"
+  },
   "32afbb6e-9c15-4378-a33d-78d9425de09d": {
-    "asset": 1559732305751,
-    "meta": 1559732306914,
+    "asset": 1559811766145,
+    "meta": 1559811769017,
     "relativePath": "scripts\\apple\\appleIndex.ts"
   }
 }

@@ -31,9 +31,9 @@ var NewClass = /** @class */ (function (_super) {
         // 转动圈数
         _this.turns = 0;
         // 反函数k值
-        _this.k = 0.03;
+        _this.k = 2;
         // 中奖号码
-        _this.winnerNum = 15;
+        _this.winnerNum = 10;
         // 速度递减开启
         _this.speedCurd = false;
         // 遮罩，开始游戏后不可点击
@@ -163,30 +163,29 @@ var NewClass = /** @class */ (function (_super) {
             }
         }
         this.num++;
+        if (this.speedCurd) {
+            this._remainingNum();
+        }
+        if (this.speedCurd && this.num === this.winnerNum) {
+            this.unschedule(this._scheduleFn);
+            this.mask.active = false;
+            // 初始化所有数据
+            this.num = 0;
+            this.turns = 0;
+            this.speed = 0.02;
+            this.speedCurd = false;
+        }
         if (this.num > 23) {
             this.num = 0;
-            if (!this.speedCurd) {
-                this.turns += 1;
-            }
-            cc.log(this.turns);
+            this.turns += 1;
             // 转4圈之后速度减小
             if (this.turns == 4) {
                 // this.turns = 0;
                 this.unschedule(this._scheduleFn);
-                // this.speedCurd = true;
+                this.speedCurd = true;
                 this.speed = 0.2;
                 // 重新执行一个新的定时器
                 this.schedule(this._scheduleFn, this.speed);
-                cc.log(this.num, 999);
-                if (this.num === this.winnerNum) {
-                    this.unschedule(this._scheduleFn);
-                }
-            }
-            // 转完4圈后，速度递减
-            if (this.speedCurd) {
-                this.unschedule(this._scheduleFn);
-                // 每帧开启一个新的定时器
-                this._remainingNum();
             }
         }
     };
@@ -197,10 +196,11 @@ var NewClass = /** @class */ (function (_super) {
         this.unschedule(this._scheduleFn);
         // cc.log()
         this.schedule(this._scheduleFn, this.speed);
-        cc.log('123', this.turns, this.speed, this.num);
-        if (this.num === this.winnerNum) {
+        cc.log('123', this.turns, this.speed, this.num, this.winnerNum);
+        /* if (this.num === this.winnerNum) {
+           
             this.unschedule(this._scheduleFn);
-        }
+        } */
     };
     // 投币
     NewClass.prototype._getMoney = function () {
