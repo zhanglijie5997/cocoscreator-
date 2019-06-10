@@ -25,4 +25,14 @@ export default class baseScence extends cc.Component{
 
     }
 
+    /**
+     * 竖屏适配方案二
+     */
+    public init():void {
+        let frameSize = cc.view.getFrameSize();
+        let bFitWidth = (frameSize.width / frameSize.height) < (750 / 1334);
+        cc.Canvas.instance.fitWidth = bFitWidth;
+        cc.Canvas.instance.fitHeight = !bFitWidth;·
+    }
+
 }

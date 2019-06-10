@@ -46,7 +46,11 @@ export default class NewClass extends cc.Component {
     k: number = 2;
 
     // 中奖号码
+<<<<<<< HEAD
     winnerNum: number = 10;
+=======
+    winnerNum: number = 22;
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
 
     // 速度递减开启
     speedCurd: boolean = false;
@@ -265,6 +269,7 @@ export default class NewClass extends cc.Component {
         if(this.speedCurd) {
 
             this._remainingNum()
+<<<<<<< HEAD
 
         }
 
@@ -281,6 +286,24 @@ export default class NewClass extends cc.Component {
 
             this.speed = 0.02;
 
+=======
+
+        }
+
+        if (this.speedCurd && this.num === this.winnerNum)  {
+
+            this.unschedule(this._scheduleFn);
+
+            this.mask.active = false;
+
+            // 初始化所有数据
+            this.num = 0;
+
+            this.turns = 0;
+
+            this.speed = 0.02;
+
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
             this.speedCurd = false;
         }
 
@@ -325,6 +348,10 @@ export default class NewClass extends cc.Component {
         /* if (this.num === this.winnerNum) {
            
             this.unschedule(this._scheduleFn);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
         } */
 
     }

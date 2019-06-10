@@ -1,0 +1,43 @@
+{
+    "deviceOrientation": "portrait",
+    "networkTimeout": {
+        "request": 5000,
+        "connectSocket": 5000,
+        "uploadFile": 5000,
+        "downloadFile": 5000
+    },
+    "subpackages": [
+        {
+            "name": "HeroClip",
+            "root": "src/assets/src/images/HeroClip.js"
+        },
+        {
+            "name": "animate",
+            "root": "src/assets/src/prefab/animate.js"
+        },
+        {
+            "name": "apple",
+            "root": "src/assets/src/prefab/apple.js"
+        },
+        {
+            "name": "font",
+            "root": "src/assets/src/font.js"
+        },
+        {
+            "name": "images",
+            "root": "src/assets/src/images.js"
+        },
+        {
+            "name": "mapPeople",
+            "root": "src/assets/src/prefab/mapPeople.js"
+        },
+        {
+            "name": "prefab",
+            "root": "src/assets/src/prefab.js"
+        },
+        {
+            "name": "resources",
+            "root": "src/assets/resources.js"
+        }
+    ]
+}

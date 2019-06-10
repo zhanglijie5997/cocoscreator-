@@ -18,23 +18,39 @@
                 "children": [
                   "hierarchy"
                 ],
+<<<<<<< HEAD
                 "height": 410.46875,
                 "type": "panel",
                 "width": 231.59375
+=======
+                "height": 410.109375,
+                "type": "panel",
+                "width": 232
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
+<<<<<<< HEAD
                 "height": 315.734375,
                 "type": "panel",
                 "width": 231.59375
+=======
+                "height": 316.09375,
+                "type": "panel",
+                "width": 232
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
               }
             ],
             "height": 728.21875,
             "type": "dock-v",
+<<<<<<< HEAD
             "width": 231.59375
+=======
+            "width": 232
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
           },
           {
             "children": [
@@ -43,9 +59,15 @@
                 "children": [
                   "scene"
                 ],
+<<<<<<< HEAD
                 "height": 441.28125,
                 "type": "panel",
                 "width": 762.96875
+=======
+                "height": 441.140625,
+                "type": "panel",
+                "width": 762.984375
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
               },
               {
                 "active": 0,
@@ -53,14 +75,24 @@
                   "console",
                   "timeline"
                 ],
+<<<<<<< HEAD
                 "height": 284.9375,
                 "type": "panel",
                 "width": 762.96875
+=======
+                "height": 285.078125,
+                "type": "panel",
+                "width": 762.984375
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
               }
             ],
             "height": 728.21875,
             "type": "dock-v",
+<<<<<<< HEAD
             "width": 762.96875
+=======
+            "width": 762.984375
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
           },
           {
             "active": 0,
@@ -71,7 +103,11 @@
             ],
             "height": 728.21875,
             "type": "panel",
+<<<<<<< HEAD
             "width": 441.4375
+=======
+            "width": 441
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
           }
         ],
         "type": "dock-h"
@@ -114,8 +150,8 @@
       "height": 602
     },
     "builder": {
-      "x": 470,
-      "y": 48,
+      "x": 373,
+      "y": 23,
       "width": 654,
       "height": 722
     },

@@ -17,10 +17,10 @@
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "jailbreakPlatform": false,
-  "md5Cache": false,
+  "md5Cache": true,
   "mergeStartScene": false,
   "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
+  "optimizeHotUpdate": true,
   "orientation": {
     "landscapeLeft": true,
     "landscapeRight": true,
@@ -34,7 +34,7 @@
     "orientation": "portrait",
     "zip": false
   },
-  "startScene": "7cde817a-9cb8-4712-a417-e6c8c9f6a446",
+  "startScene": "27b46135-def8-40d8-808c-a030a236a689",
   "title": "NewProject_3",
   "webOrientation": "auto",
   "wechatgame": {

@@ -33,7 +33,11 @@ var NewClass = /** @class */ (function (_super) {
         // 反函数k值
         _this.k = 2;
         // 中奖号码
+<<<<<<< HEAD
         _this.winnerNum = 10;
+=======
+        _this.winnerNum = 22;
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
         // 速度递减开启
         _this.speedCurd = false;
         // 遮罩，开始游戏后不可点击
@@ -200,6 +204,10 @@ var NewClass = /** @class */ (function (_super) {
         /* if (this.num === this.winnerNum) {
            
             this.unschedule(this._scheduleFn);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 262f68e6f1a1245ca59dcbf233870b35c7ee1ba7
         } */
     };
     // 投币
