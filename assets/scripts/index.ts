@@ -109,6 +109,7 @@ export default class index extends baseScence {
 
         let animation = people.children[0].getComponent(cc.Animation);
 
+
         // cc.log(animation);
 
         this.peolpleJump(people, people.x, people.y);

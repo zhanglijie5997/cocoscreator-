@@ -1,61 +1,76 @@
-2019-06-09T01:57:15.636Z - normal: Load ~/.CocosCreator/settings.json
-2019-06-09T01:57:15.764Z - normal: Initializing Asset Database
-2019-06-09T01:57:15.768Z - normal: checking language setting...
-2019-06-09T01:57:15.768Z - normal: Language: zh
-2019-06-09T01:57:17.598Z - success: preview server running at http://localhost:7456
-2019-06-09T01:57:17.609Z - success: protocol editor-framework registered
-2019-06-09T01:57:17.609Z - success: protocol app registered
-2019-06-09T01:57:17.610Z - success: protocol theme registered
-2019-06-09T01:57:17.610Z - success: protocol packages registered
-2019-06-09T01:57:17.610Z - success: protocol uuid registerred
-2019-06-09T01:57:17.610Z - success: protocol db registerred
-2019-06-09T01:57:17.610Z - success: protocol thumbnail registerred
-2019-06-09T01:57:17.611Z - success: protocol unpack registerred
-2019-06-09T01:57:17.611Z - success: protocol disable-commonjs registerred
-2019-06-09T01:57:17.843Z - normal: connected!
-2019-06-09T01:57:17.847Z - normal: Check project /Users/ljzhang/Desktop/git/cocoscreator-
-2019-06-09T01:57:17.850Z - normal: Initializing project /Users/ljzhang/Desktop/git/cocoscreator-
-2019-06-09T01:57:19.366Z - normal: Initializing Cocos2d
-2019-06-09T01:57:20.465Z - normal: Initializing engine extends
-2019-06-09T01:57:20.469Z - normal: Loading editor/builtin packages from /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin
-2019-06-09T01:57:20.488Z - normal: Loading builtin packages from /Applications/CocosCreator.app/Contents/Resources/builtin
-2019-06-09T01:57:21.483Z - success: assets loaded
-2019-06-09T01:57:21.485Z - success: asset-db-debugger loaded
-2019-06-09T01:57:21.625Z - success: builder loaded
-2019-06-09T01:57:21.626Z - success: color-picker loaded
-2019-06-09T01:57:21.842Z - success: cocos-analytics loaded
-2019-06-09T01:57:21.842Z - success: google-play-instant loaded
-2019-06-09T01:57:21.868Z - success: console loaded
-2019-06-09T01:57:21.870Z - success: jsb-adapter loaded
-2019-06-09T01:57:22.047Z - success: fb-instant-games loaded
-2019-06-09T01:57:22.048Z - success: oppo-runtime loaded
-2019-06-09T01:57:22.073Z - success: google-instant-games loaded
-2019-06-09T01:57:22.074Z - success: package-manager loaded
-2019-06-09T01:57:22.753Z - success: hierarchy loaded
-2019-06-09T01:57:22.754Z - success: qqplay-adapter loaded
-2019-06-09T01:57:23.020Z - success: inspector loaded
-2019-06-09T01:57:23.022Z - success: sdkbox loaded
-2019-06-09T01:57:23.169Z - success: keystore loaded
-2019-06-09T01:57:23.171Z - success: tester loaded
-2019-06-09T01:57:23.205Z - success: node-library loaded
-2019-06-09T01:57:23.207Z - success: ui-grid loaded
-2019-06-09T01:57:23.222Z - success: package-asset loaded
-2019-06-09T01:57:23.223Z - success: ui-kit-preview-extra loaded
-2019-06-09T01:57:23.307Z - success: preferences loaded
-2019-06-09T01:57:23.308Z - success: ui-kit-preview loaded
-2019-06-09T01:57:23.521Z - success: project-exporter loaded
-2019-06-09T01:57:23.526Z - success: ui-kit loaded
-2019-06-09T01:57:23.582Z - success: project-importer loaded
-2019-06-09T01:57:23.582Z - success: ui-tree loaded
-2019-06-09T01:57:23.648Z - success: project-settings loaded
-2019-06-09T01:57:23.650Z - success: vivo-runtime loaded
-2019-06-09T01:57:23.663Z - success: scene loaded
-2019-06-09T01:57:23.664Z - success: weapp-adapter loaded
-2019-06-09T01:57:23.667Z - success: simulator-debugger loaded
-2019-06-09T01:57:23.669Z - success: sprite-editor loaded
-2019-06-09T01:57:23.680Z - success: store loaded
-2019-06-09T01:57:23.694Z - success: timeline loaded
-2019-06-09T01:57:25.120Z - normal: Loading packages
-2019-06-09T01:57:25.186Z - success: bitmap-font loaded
-2019-06-09T01:57:25.187Z - normal: Watching packages
-2019-06-09T01:57:25.328Z - normal: Run Application
+2019-08-17T04:08:46.279Z - normal: Load ~/.CocosCreator/settings.json
+2019-08-17T04:08:46.396Z - normal: Initializing Asset Database
+2019-08-17T04:08:46.401Z - normal: checking language setting...
+2019-08-17T04:08:46.401Z - normal: Language: zh
+2019-08-17T04:08:48.302Z - success: preview server running at http://localhost:7456
+2019-08-17T04:08:48.347Z - success: protocol editor-framework registered
+2019-08-17T04:08:48.347Z - success: protocol app registered
+2019-08-17T04:08:48.347Z - success: protocol theme registered
+2019-08-17T04:08:48.347Z - success: protocol packages registered
+2019-08-17T04:08:48.348Z - success: protocol uuid registerred
+2019-08-17T04:08:48.348Z - success: protocol db registerred
+2019-08-17T04:08:48.348Z - success: protocol thumbnail registerred
+2019-08-17T04:08:48.348Z - success: protocol unpack registerred
+2019-08-17T04:08:48.348Z - success: protocol disable-commonjs registerred
+2019-08-17T04:08:48.626Z - normal: connected!
+2019-08-17T04:08:48.628Z - normal: Check project /Users/ljzhang/Desktop/cocoscreator/cocoscreator-
+2019-08-17T04:08:48.631Z - normal: Initializing project /Users/ljzhang/Desktop/cocoscreator/cocoscreator-
+2019-08-17T04:08:50.149Z - normal: Initializing Cocos2d
+2019-08-17T04:08:51.352Z - normal: Initializing engine extends
+2019-08-17T04:08:51.355Z - normal: Loading editor/builtin packages from /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin
+2019-08-17T04:08:51.375Z - normal: Loading builtin packages from /Applications/CocosCreator.app/Contents/Resources/builtin
+2019-08-17T04:08:52.250Z - success: assets loaded
+2019-08-17T04:08:52.252Z - success: asset-db-debugger loaded
+2019-08-17T04:08:52.432Z - success: builder loaded
+2019-08-17T04:08:52.434Z - success: color-picker loaded
+2019-08-17T04:08:52.700Z - success: cocos-analytics loaded
+2019-08-17T04:08:52.701Z - success: google-play-instant loaded
+2019-08-17T04:08:52.731Z - success: console loaded
+2019-08-17T04:08:52.732Z - success: jsb-adapter loaded
+2019-08-17T04:08:53.013Z - success: fb-instant-games loaded
+2019-08-17T04:08:53.014Z - success: oppo-runtime loaded
+2019-08-17T04:08:53.044Z - success: google-instant-games loaded
+2019-08-17T04:08:53.045Z - success: package-manager loaded
+2019-08-17T04:08:53.540Z - success: hierarchy loaded
+2019-08-17T04:08:53.542Z - success: qqplay-adapter loaded
+2019-08-17T04:08:53.579Z - success: inspector loaded
+2019-08-17T04:08:53.581Z - success: sdkbox loaded
+2019-08-17T04:08:53.599Z - success: keystore loaded
+2019-08-17T04:08:53.600Z - success: tester loaded
+2019-08-17T04:08:53.644Z - success: node-library loaded
+2019-08-17T04:08:53.646Z - success: ui-grid loaded
+2019-08-17T04:08:53.668Z - success: package-asset loaded
+2019-08-17T04:08:53.670Z - success: ui-kit-preview-extra loaded
+2019-08-17T04:08:53.687Z - success: preferences loaded
+2019-08-17T04:08:53.687Z - success: ui-kit-preview loaded
+2019-08-17T04:08:53.704Z - success: project-exporter loaded
+2019-08-17T04:08:53.706Z - success: ui-kit loaded
+2019-08-17T04:08:53.754Z - success: project-importer loaded
+2019-08-17T04:08:53.754Z - success: ui-tree loaded
+2019-08-17T04:08:53.773Z - success: project-settings loaded
+2019-08-17T04:08:53.774Z - success: vivo-runtime loaded
+2019-08-17T04:08:53.792Z - success: scene loaded
+2019-08-17T04:08:53.793Z - success: weapp-adapter loaded
+2019-08-17T04:08:53.796Z - success: simulator-debugger loaded
+2019-08-17T04:08:53.798Z - success: sprite-editor loaded
+2019-08-17T04:08:53.817Z - success: store loaded
+2019-08-17T04:08:53.834Z - success: timeline loaded
+2019-08-17T04:08:57.654Z - normal: Loading packages
+2019-08-17T04:08:57.682Z - success: bitmap-font loaded
+2019-08-17T04:08:57.682Z - normal: Watching packages
+2019-08-17T04:08:57.800Z - normal: Run Application
+2019-08-17T04:13:05.969Z - warn: The Asset used by component "cc.Label" in prefab "collisionBody.prefab" is missing. Detailed information:
+Node path: "collisionBody/New Label"
+Asset url: "db://assets/src/prefab/collisionBody.prefab"
+Missing uuid: "a3d3a1db-80bd-43b8-917c-eeb8e1b7303c"
+
+2019-08-17T04:13:46.410Z - warn: The Asset used by component "cc.Label" in prefab "collisionBody.prefab" is missing. Detailed information:
+Node path: "collisionBody/New Label"
+Asset url: "db://assets/src/prefab/collisionBody.prefab"
+Missing uuid: "a3d3a1db-80bd-43b8-917c-eeb8e1b7303c"
+
+2019-08-17T04:13:46.790Z - warn: The Asset used by component "cc.Label" in prefab "collisionBody.prefab" is missing. Detailed information:
+Node path: "collisionBody/New Label"
+Asset url: "db://assets/src/prefab/collisionBody.prefab"
+Missing uuid: "a3d3a1db-80bd-43b8-917c-eeb8e1b7303c"
+
